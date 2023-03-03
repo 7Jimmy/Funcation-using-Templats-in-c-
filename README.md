@@ -1,23 +1,9 @@
-# Funcation-using-Templats-in-c-
-//using funcation templats
-#include<iostream>
-using namespace std;
-template <class T>
-T number(T a,T b){
-	if(a>b){
-		return a;
-	}
-	else
-	return b;
-}
-int main(){
-	int n;
-	float b;
+# A Full Screen Camera App written in Swift
 
-	n=number(100,50);
-		cout<<n;
-	b=number(1.3,2.5);
-	cout<<b;
-	return 0;
-}
+This is a demo app showing you how to use AVFoundation to build a full-screen camera app in iOS.
 
+![](http://www.appcoda.com/wp-content/uploads/2017/05/Screenshot-1.png)
+
+For the full tutorial, you can refer to this link:
+
+http://www.appcoda.com/avfoundation-guide/
